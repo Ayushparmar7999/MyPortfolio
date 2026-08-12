@@ -152,12 +152,12 @@ function ProjectCard({
         </h3>
 
         <div
-          className="p-5 rounded-xl mb-6 relative z-20"
+          className={`p-5 rounded-xl mb-6 relative z-20 ${
+            isEven ? "lg:-ml-8 ml-0" : "lg:-mr-8 mr-0"
+          }`}
           style={{
             backgroundColor: "var(--bg-card)",
             border: "1px solid var(--border)",
-            marginLeft: isEven ? "-2rem" : "0",
-            marginRight: isEven ? "0" : "-2rem",
             boxShadow: "var(--shadow-lg)",
           }}
         >
@@ -190,7 +190,7 @@ function ProjectCard({
         </ul>
 
         {/* Action Links */}
-        <div className="flex items-center gap-5">
+        <div className="flex flex-wrap items-center gap-5">
           {project.github !== "#" && (
             <a
               href={project.github}

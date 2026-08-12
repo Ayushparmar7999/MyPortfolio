@@ -21,7 +21,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Ayush Parmar | Full Stack Software Engineer",
   description:
-    "Ayush Parmar is a Full Stack Software Engineer specializing in React, React Native, Node.js, Django, AI and scalable digital products.",
+    "Ayush Parmar is a Full Stack Software Engineer specializing in React, React Native, Node.js, AI, and scalable digital products.",
   keywords: [
     "Full Stack Developer",
     "React Developer",
@@ -113,7 +113,6 @@ export default function RootLayout({
                 "Node.js",
                 "TypeScript",
                 "Python",
-                "Django",
                 "AI",
                 "Machine Learning",
               ],

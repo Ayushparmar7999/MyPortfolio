@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { 
   SiNextdotjs, SiTypescript, SiJavascript, SiTailwindcss, 
-  SiMongodb, SiPostgresql, SiPrisma, SiFirebase, SiSupabase, SiRedux,
+  SiPrisma, SiFirebase, SiRedux,
   SiReact, SiNodedotjs, SiPython
 } from "react-icons/si";
 
@@ -15,11 +15,8 @@ const technologies = [
   { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
   { name: "Python", icon: SiPython, color: "#3776AB" },
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-  { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
-  { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
   { name: "Prisma", icon: SiPrisma, color: "#2D3748" },
   { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
-  { name: "Supabase", icon: SiSupabase, color: "#3ECF8E" },
   { name: "Redux Toolkit", icon: SiRedux, color: "#764ABC" },
 ];
 

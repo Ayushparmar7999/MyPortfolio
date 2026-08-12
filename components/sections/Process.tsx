@@ -102,7 +102,7 @@ export default function Process() {
                     {step.title}
                   </h3>
                   <p
-                    className="text-xs leading-relaxed max-w-[180px] md:mx-auto"
+                    className="text-xs leading-relaxed max-w-xs md:max-w-[180px] md:mx-auto"
                     style={{ color: "var(--text-muted)" }}
                   >
                     {step.description}

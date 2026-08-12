@@ -198,7 +198,7 @@ export default function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-[55] lg:hidden flex flex-col items-center justify-center"
+            className="fixed inset-0 z-[55] lg:hidden flex flex-col items-center justify-start overflow-y-auto pt-24 pb-12"
             style={{ backgroundColor: "var(--bg-primary)" }}
           >
             {/* Gradient accent in background */}

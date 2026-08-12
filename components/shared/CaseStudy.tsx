@@ -72,7 +72,7 @@ export default function CaseStudy({ project, onClose }: CaseStudyProps) {
 
           {/* Header */}
           <div
-            className="relative px-8 md:px-12 pt-12 pb-10"
+            className="relative pl-8 pr-20 md:pl-12 md:pr-24 pt-12 pb-10"
             style={{
               borderBottom: "1px solid var(--border)",
             }}

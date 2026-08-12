@@ -194,7 +194,7 @@ export default function About() {
             </div>
 
             {/* Code card content */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center z-20 p-8 text-center">
+            <div className="absolute inset-0 flex flex-col items-center justify-center z-20 p-4 sm:p-8 text-center">
               <h3
                 className="text-5xl font-bold mb-6 opacity-[0.06]"
                 style={{
@@ -207,7 +207,7 @@ export default function About() {
               </h3>
 
               <div
-                className="font-mono text-sm text-left rounded-xl p-5"
+                className="font-mono text-xs sm:text-sm text-left rounded-xl p-4 sm:p-5"
                 style={{
                   backgroundColor: "rgba(0,0,0,0.4)",
                   border: "1px solid var(--border)",

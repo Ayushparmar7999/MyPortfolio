@@ -119,22 +119,21 @@ export default function Contact() {
           </div>
 
           {/* Social + CV */}
-          <div className="flex items-center gap-3">
-            <SocialButton
-              href={SOCIAL_LINKS.github}
-              icon={FaGithub}
-              label="GitHub"
-            />
-            <SocialButton
-              href={SOCIAL_LINKS.linkedin}
-              icon={FaLinkedin}
-              label="LinkedIn"
-            />
-            <a href={CV_PATH} target="_blank" rel="noopener noreferrer" className="btn-primary interactive text-sm ml-2 px-3">
-              <ExternalLink size={14} />
-              View CV
-            </a>
-            <a href={CV_PATH} download className="btn-secondary interactive text-sm px-3">
+          <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 w-full">
+            <div className="flex items-center gap-2.5 sm:gap-3">
+              <SocialButton
+                href={SOCIAL_LINKS.github}
+                icon={FaGithub}
+                label="GitHub"
+              />
+              <SocialButton
+                href={SOCIAL_LINKS.linkedin}
+                icon={FaLinkedin}
+                label="LinkedIn"
+              />
+            </div>
+
+            <a href={CV_PATH} download className="btn-secondary interactive text-xs sm:text-sm px-4 py-2.5 flex-1 sm:flex-none justify-center">
               <Download size={14} />
               Download
             </a>

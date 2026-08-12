@@ -1,8 +1,8 @@
 import {
   SiReact, SiNextdotjs, SiTypescript, SiJavascript,
-  SiNodedotjs, SiPython, SiTailwindcss, SiMongodb,
-  SiPostgresql, SiPrisma, SiFirebase, SiSupabase,
-  SiRedux, SiExpress, SiDjango, SiFlask, SiPytorch,
+  SiNodedotjs, SiPython, SiTailwindcss,
+  SiPrisma, SiFirebase,
+  SiRedux, SiExpress, SiPytorch,
   SiTensorflow, SiWordpress, SiGit, SiGithub,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
@@ -92,18 +92,13 @@ export const TECHNOLOGIES: Technology[] = [
   // Backend
   { name: "Node.js", icon: SiNodedotjs, color: "#339933", category: "Backend" },
   { name: "Express.js", icon: SiExpress, color: "#f5f5f5", category: "Backend" },
-  { name: "Django", icon: SiDjango, color: "#092E20", category: "Backend" },
   { name: "Python", icon: SiPython, color: "#3776AB", category: "Backend" },
-  { name: "Flask", icon: SiFlask, color: "#f5f5f5", category: "Backend" },
 
   // Database
-  { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1", category: "Database" },
-  { name: "MongoDB", icon: SiMongodb, color: "#47A248", category: "Database" },
   { name: "Prisma", icon: SiPrisma, color: "#2D3748", category: "Database" },
 
   // Cloud & Services
   { name: "Firebase", icon: SiFirebase, color: "#FFCA28", category: "Cloud & Services" },
-  { name: "Supabase", icon: SiSupabase, color: "#3ECF8E", category: "Cloud & Services" },
   { name: "AWS", icon: FaAws, color: "#FF9900", category: "Cloud & Services" },
   { name: "Git", icon: SiGit, color: "#F05032", category: "Cloud & Services" },
   { name: "GitHub", icon: SiGithub, color: "#f5f5f5", category: "Cloud & Services" },
@@ -190,7 +185,7 @@ export const EDUCATION: EducationItem[] = [
     title: "Python Web Development Certification",
     institution: "Cybrom Technology Pvt. Ltd, Bhopal",
     description:
-      "Backend development specializing in Python, Flask, API development, and SQL databases.",
+      "Backend development specializing in Python, API development, and SQL databases.",
     type: "Certification",
   },
 ];
@@ -273,7 +268,7 @@ export const PROJECTS: Project[] = [
       { label: "Mobile App", tech: ["React Native"], color: "#61DAFB" },
       { label: "API Layer", tech: ["REST APIs"], color: "#3B82F6" },
       { label: "Backend", tech: ["Node.js"], color: "#339933" },
-      { label: "Database", tech: ["MongoDB"], color: "#47A248" },
+      { label: "Database", tech: ["SQL Database"], color: "#3B82F6" },
     ],
   },
   {
@@ -356,7 +351,7 @@ export const PROJECTS: Project[] = [
     architecture: [
       { label: "Frontend", tech: ["React"], color: "#61DAFB" },
       { label: "Backend", tech: ["Node.js", "Express"], color: "#339933" },
-      { label: "Database", tech: ["PostgreSQL"], color: "#4169E1" },
+      { label: "Database", tech: ["SQL Database"], color: "#3B82F6" },
     ],
   },
   {
@@ -383,7 +378,7 @@ export const PROJECTS: Project[] = [
     architecture: [
       { label: "Client App", tech: ["React"], color: "#61DAFB" },
       { label: "API", tech: ["Node.js API"], color: "#3B82F6" },
-      { label: "Data Layer", tech: ["MongoDB"], color: "#47A248" },
+      { label: "Data Layer", tech: ["SQL Database"], color: "#3B82F6" },
     ],
   },
 ];

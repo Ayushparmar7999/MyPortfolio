@@ -114,29 +114,29 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.65 }}
-          className="flex flex-wrap gap-3 pointer-events-auto mb-12"
+          className="flex flex-wrap gap-2.5 sm:gap-3 pointer-events-auto mb-12"
         >
           <Magnetic>
-            <a href="#projects" className="btn-primary interactive">
+            <a href="#projects" className="btn-primary interactive text-xs sm:text-sm px-4 py-2.5 sm:px-8 sm:py-3">
               View My Work
-              <ArrowRight size={16} />
+              <ArrowRight size={14} />
             </a>
           </Magnetic>
           <Magnetic>
-            <a href={CV_PATH} target="_blank" rel="noopener noreferrer" className="btn-secondary interactive">
-              <ExternalLink size={16} />
+            <a href={CV_PATH} target="_blank" rel="noopener noreferrer" className="btn-secondary interactive text-xs sm:text-sm px-4 py-2.5 sm:px-8 sm:py-3">
+              <ExternalLink size={14} />
               View CV
             </a>
           </Magnetic>
           <Magnetic>
-            <a href={CV_PATH} download className="btn-secondary interactive">
-              <Download size={16} />
+            <a href={CV_PATH} download className="btn-secondary interactive text-xs sm:text-sm px-4 py-2.5 sm:px-8 sm:py-3">
+              <Download size={14} />
               Download
             </a>
           </Magnetic>
           <Magnetic>
-            <a href="#contact" className="btn-ghost interactive">
-              <MessageSquare size={16} />
+            <a href="#contact" className="btn-ghost interactive text-xs sm:text-sm px-4 py-2.5 sm:px-8 sm:py-3">
+              <MessageSquare size={14} />
               Let&apos;s Talk
             </a>
           </Magnetic>
