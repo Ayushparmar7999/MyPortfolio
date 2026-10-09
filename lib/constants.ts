@@ -217,6 +217,35 @@ export interface ArchitectureLayer {
 export const PROJECTS: Project[] = [
   {
     id: 1,
+    title: "Education Experts Pune",
+    subtitle: "Study Abroad Consultancy Website",
+    description:
+      "Developed a responsive WordPress website for an overseas education consultancy, showcasing study destinations, counselling services, university options, student testimonials, and visa support. Implemented user-friendly navigation, service-focused landing sections, contact information, and responsive layouts to enhance user experience and student engagement.",
+    problem:
+      "Overseas education consultancy clients required a seamless, intuitive web presence to showcase study destinations, university options, counselling services, and visa support to prospective international students.",
+    solution:
+      "Built a modern, high-converting WordPress website featuring structured landing sections, interactive destination profiles, student success stories, and integrated inquiry forms for streamlined lead generation and student engagement.",
+    features: [
+      "Global study destination showcases (USA, UK, Canada, Australia)",
+      "Service-focused landing sections for counseling & test prep",
+      "Visa support and application guidance documentation",
+      "Student testimonials & success stories gallery",
+      "Interactive consultation request and contact forms",
+      "Fully responsive and mobile-optimized web design",
+    ],
+    tech: ["WordPress", "PHP", "CSS3", "JavaScript", "SEO", "UI/UX Design"],
+    image: "/projects/education.png",
+    github: "#",
+    live: "https://educationexperts.co.in/",
+    architecture: [
+      { label: "CMS Core", tech: ["WordPress", "PHP"], color: "#21759B" },
+      { label: "Frontend UI", tech: ["Custom CSS3", "JavaScript"], color: "#F7DF1E" },
+      { label: "SEO & Growth", tech: ["SEO Optimization", "Web Analytics"], color: "#22C55E" },
+      { label: "Hosting", tech: ["Web Server", "SSL Security"], color: "#3B82F6" },
+    ],
+  },
+  {
+    id: 2,
     title: "Restaurant Booking App",
     subtitle: "Cross-Platform Mobile Application",
     description:
@@ -244,7 +273,7 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Astrolock Application",
     subtitle: "Astrology & Learning Platform",
     description:
@@ -272,7 +301,7 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "AI Chatbot",
     subtitle: "Conversational AI System",
     description:
@@ -300,7 +329,7 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Movie Recommendation System",
     subtitle: "Machine Learning Application",
     description:
@@ -328,7 +357,7 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Financial Management System",
     subtitle: "Swabhiman Pawan Nidhi Limited",
     description:
@@ -355,7 +384,7 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Hostel Management System",
     subtitle: "Educational Institution Tool",
     description:
